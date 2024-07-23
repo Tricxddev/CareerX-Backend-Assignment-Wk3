@@ -1,0 +1,132 @@
+.head_pane{
+    /* width: 13230x; */
+    /* height: 100px; */
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    margin: 5px;
+}
+
+.log_sp{
+    width: 150px;
+    height: 80px;
+    /* border: 2px solid rgb(220, 157, 20); */
+ 
+}
+
+.log_sp img{
+    width: 40%;
+    height: 100%;
+}
+
+
+
+.menu_space{
+    width: 210px;
+    height: 80px;
+    /* border: 2px solid rgb(20, 23, 220); */
+    flex: 1;
+    /* padding: 2px; */
+}
+
+
+.menu_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-family: system-ui;
+    padding-top: 12px;
+}
+
+
+.log_bbtn{
+    width: 190px;
+    height: 67px;
+    /* border: 2px solid rgb(43, 220, 20); */
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui;
+    padding-top: 12px;
+    /* font-weight: 500;  */
+}
+.bbtn{
+    width: 2.5cm;
+    height: 0.7cm;
+    /* display: inline; */    
+    margin-top: 15px;
+    background-color: rgb(245, 135, 95);
+    color: white;
+    font-family: system-ui;
+    border-radius: 0.1cm;
+    border: none;
+}
+
+.log_bbtn p{
+    font-family: system-ui;
+    /* padding-left:   120px; */   
+    font-weight: 500; 
+}
+
+.sect2{
+    
+    border: 2px solid forestgreen;
+    display: flex;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+
+.div1{
+    border: 2px solid blue;
+    flex: 1;
+    /* display: flex; */
+    /* width: 400px;
+    height: 300px; */
+    margin: 10px;
+
+}
+
+.div2{
+    border: 2px solid purple;
+    width: 350px;
+    height: 320px;
+    background-image: url(./IMAGES/netflix.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 10px;
+}
+.wrd_bttn{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(245, 135, 95);
+    border: none;
+}
+
+
+.inner1{
+    border: 2px solid rgb(248, 82, 110);
+    flex: 1;
+    margin: 10px;
+    display: flex;
+}
+
+.inner2{
+    border: 2px solid yellow;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+}
+
+.sect2 .div1 .inner1 img{
+    width: 72px;
+    margin: 10px;
+}
+
+.sect2 .div1 .inner2 img{
+    width: 72px;
+    margin: 10px;
+
+}
